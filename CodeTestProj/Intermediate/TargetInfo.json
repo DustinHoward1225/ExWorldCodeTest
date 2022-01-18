@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CodeTestProj",
+			"Path": "C:\\Users\\dusti\\Documents\\Github\\ExWorldTest\\ExWorldCodeTest\\CodeTestProj\\Source\\CodeTestProj.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CodeTestProjEditor",
+			"Path": "C:\\Users\\dusti\\Documents\\Github\\ExWorldTest\\ExWorldCodeTest\\CodeTestProj\\Source\\CodeTestProjEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
