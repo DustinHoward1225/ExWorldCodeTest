@@ -1,0 +1,3 @@
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Intermediate\Build\Win64\UE4Editor\Development\CodeTestProj\Definitions.CodeTestProj.h
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Source\CodeTestProj\Public\MyTestPawn.h
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Intermediate\Build\Win64\UE4Editor\Inc\CodeTestProj\MyTestPawn.generated.h

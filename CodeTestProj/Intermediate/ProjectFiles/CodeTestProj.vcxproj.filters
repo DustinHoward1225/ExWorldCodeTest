@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CodeTestProj.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AB74D737-88FF-47CE-859B-E7EA395B63F9}</UniqueIdentifier>
+      <UniqueIdentifier>{4900A281-D35C-43F0-BD3F-33DB2C8B594E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CodeTestProj.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{96656D59-3AF7-4C12-BA81-4E4736EEA62A}</UniqueIdentifier>
+      <UniqueIdentifier>{A374A584-907B-49FF-9C8B-0DD641B70164}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CodeTestProj">
-      <UniqueIdentifier>{77BAF357-40AC-43B1-9664-6A348686AE46}</UniqueIdentifier>
+      <UniqueIdentifier>{95126565-F430-4DB0-848D-A703B1F10E13}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CodeTestProj\CodeTestProj.Build.cs">
       <Filter>Source\CodeTestProj</Filter>
@@ -52,6 +52,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\CodeTestProj\CodeTestProjGameMode.h">
       <Filter>Source\CodeTestProj</Filter>
+    </ClInclude>
+    <Filter Include="Source\CodeTestProj\Private">
+      <UniqueIdentifier>{097C0AC7-90D8-437B-B724-A20ED4B532C7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CodeTestProj\Private\MyTestPawn.cpp">
+      <Filter>Source\CodeTestProj\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CodeTestProj\Public">
+      <UniqueIdentifier>{F142628A-E176-4A69-AC31-660A0B4B0E71}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CodeTestProj\Public\MyTestPawn.h">
+      <Filter>Source\CodeTestProj\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
