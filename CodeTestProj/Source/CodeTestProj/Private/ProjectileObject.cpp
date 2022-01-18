@@ -81,7 +81,7 @@ void AProjectileObject::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherAc
 
     ECollisionChannel ObjType = OtherComp->GetCollisionObjectType();
     //ObjType.ToString();
-    PrintString(FString::Printf(TEXT("Hit: %s"), ObjType));
+    //PrintString(FString::Printf(TEXT("Hit: %s"), ObjType));
     
     //switch (ObjType)
    // {
