@@ -1,0 +1,13 @@
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Intermediate\Build\Win64\UE4Editor\Development\CodeTestProj\Definitions.CodeTestProj.h
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Source\CodeTestProj\Public\MyProjectileObject2.h
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Source\CodeTestProj\Public\ProjectileObject.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Intermediate\Build\Win64\UE4Editor\Inc\CodeTestProj\ProjectileObject.generated.h
+C:\Users\dusti\Documents\Github\ExWorldTest\ExWorldCodeTest\CodeTestProj\Intermediate\Build\Win64\UE4Editor\Inc\CodeTestProj\MyProjectileObject2.generated.h

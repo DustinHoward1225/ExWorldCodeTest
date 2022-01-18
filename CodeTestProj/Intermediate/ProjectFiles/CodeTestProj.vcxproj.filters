@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CodeTestProj.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4900A281-D35C-43F0-BD3F-33DB2C8B594E}</UniqueIdentifier>
+      <UniqueIdentifier>{939B48BC-CF43-401C-9831-AB2FFA796CD1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CodeTestProj.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A374A584-907B-49FF-9C8B-0DD641B70164}</UniqueIdentifier>
+      <UniqueIdentifier>{2BF970C6-409B-4302-B852-48F80EE999EB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CodeTestProj">
-      <UniqueIdentifier>{95126565-F430-4DB0-848D-A703B1F10E13}</UniqueIdentifier>
+      <UniqueIdentifier>{98188E2C-F8B1-41ED-99D7-244642E07D28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CodeTestProj\CodeTestProj.Build.cs">
       <Filter>Source\CodeTestProj</Filter>
@@ -54,15 +54,27 @@
       <Filter>Source\CodeTestProj</Filter>
     </ClInclude>
     <Filter Include="Source\CodeTestProj\Private">
-      <UniqueIdentifier>{097C0AC7-90D8-437B-B724-A20ED4B532C7}</UniqueIdentifier>
+      <UniqueIdentifier>{1B761753-314E-43E5-88BC-42C0DBD3A170}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\CodeTestProj\Private\MyProjectileObject2.cpp">
+      <Filter>Source\CodeTestProj\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CodeTestProj\Private\MyTestPawn.cpp">
       <Filter>Source\CodeTestProj\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CodeTestProj\Private\ProjectileObject.cpp">
+      <Filter>Source\CodeTestProj\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\CodeTestProj\Public">
-      <UniqueIdentifier>{F142628A-E176-4A69-AC31-660A0B4B0E71}</UniqueIdentifier>
+      <UniqueIdentifier>{62FFB475-7570-4DBC-BB50-8C09A23AACC1}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\CodeTestProj\Public\MyProjectileObject2.h">
+      <Filter>Source\CodeTestProj\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CodeTestProj\Public\MyTestPawn.h">
+      <Filter>Source\CodeTestProj\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CodeTestProj\Public\ProjectileObject.h">
       <Filter>Source\CodeTestProj\Public</Filter>
     </ClInclude>
   </ItemGroup>
