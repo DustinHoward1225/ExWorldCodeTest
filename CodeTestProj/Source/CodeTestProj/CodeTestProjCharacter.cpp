@@ -74,6 +74,7 @@ void ACodeTestProjCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ACodeTestProjCharacter::OnResetVR);
+	PlayerInputComponent->BindAction("Flail", IE_Pressed, this, &ACodeTestProjCharacter::SpawnProjectile);
 }
 
 
@@ -108,6 +109,11 @@ void ACodeTestProjCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void ACodeTestProjCharacter::SpawnProjectile()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("YEAHHH"));
 }
 
 void ACodeTestProjCharacter::MoveForward(float Value)

@@ -52,6 +52,7 @@ protected:
 	 */
 	void LookUpAtRate(float Rate);
 
+	void SpawnProjectile();
 	/** Handler for when a touch input begins. */
 	void TouchStarted(ETouchIndex::Type FingerIndex, FVector Location);
 
