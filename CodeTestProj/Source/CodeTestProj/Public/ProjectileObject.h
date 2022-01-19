@@ -6,7 +6,23 @@
 #include "GameFramework/Actor.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
+
+#include "Engine/DataTable.h"
 #include "ProjectileObject.generated.h"
+
+USTRUCT(BlueprintType)
+struct FProjectileEffect : public FTableRowBase
+{
+
+	GENERATED_BODY()
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString Effect;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString Description;
+};
 
 class USPhereComponent;
 class UBoxComponent;
@@ -19,6 +35,7 @@ class CODETESTPROJ_API AProjectileObject : public AActor
 public:
 	// Sets default values for this actor's properties
 	AProjectileObject();
+	//FString ObjTypeS;
 
 protected:
 	// Called when the game starts or when spawned
@@ -29,23 +46,30 @@ public:
 	//virtual void Tick(float DeltaTime) override;
 
 
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-		UBoxComponent* HitBox;
+	//UPROPERTY(VisibleAnywhere, Category = "Components")
+		//UBoxComponent* HitBox;
 	// Projectile movement component
+
+	//UPROPERTY(VisibleAnywhere, Category = "Chillin")
+		//USceneComponent* RootComponent;
+
 	UPROPERTY(VisibleAnywhere, Category = Movement)
 		UProjectileMovementComponent* ProjectileMovementComponent;
+
+// Sphere mesh component
+	UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
+		UStaticMeshComponent* ProjectileMeshComponent;
 
 	// Sphere collision component
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Projectile)
 		USphereComponent* CollisionComponent;
 
-	// Sphere mesh component
-	UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
-		UStaticMeshComponent* ProjectileMeshComponent;
+	
 
 protected:
-
 	UFUNCTION()
 		void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UDataTable* EffectDataTable;
 };
